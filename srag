@@ -1,0 +1,3 @@
+Conversão de Colunas para character e numeric
+Primeiro, algumas colunas são convertidas para o tipo character e depois para numeric. 
+Isso pode ser útil quando as colunas são originalmente importadas como fatores ou strings com números que precisam ser convertidos para realizar cálculos numéricos.
