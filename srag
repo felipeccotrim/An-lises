@@ -1,4 +1,4 @@
-Conversão de Colunas para character e numeric
+## Conversão de Colunas para character e numeric
 
 Primeiro, algumas colunas são convertidas para o tipo CHARACTER e depois para NUMERIC. 
 Isso pode ser útil quando as colunas são originalmente importadas como fatores ou strings com números que precisam ser convertidos para realizar cálculos numéricos.
@@ -12,3 +12,5 @@ SRAG <- SRAG %>%
          an_sars2 = as.numeric(an_sars2),
          classi_fin = as.numeric(classi_fin),
          criterio = as.numeric(criterio))
+
+## asdadasd
